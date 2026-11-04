@@ -1,0 +1,22 @@
+# Chặn mọi thứ, chỉ cho phép đúng các file của notebook Learning_VAE_ViT_VJEPA
+/*
+
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/Learning_VAE_ViT_VJEPA.ipynb
+!/common.py
+!/train_vae.py
+!/train_vit.py
+!/train_vjepa.py
+
+!/outputs_learning/
+
+!/checkpoints/
+/checkpoints/*
+!/checkpoints/vae.pt
+!/checkpoints/vit.pt
+!/checkpoints/vjepa.pt
+
+__pycache__/
+.ipynb_checkpoints/
